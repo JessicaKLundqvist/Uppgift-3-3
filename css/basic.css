@@ -8,8 +8,10 @@
     border:.1px solid #51473D;
     
     }
-    
+
+
 #topbar {
+    background-image:url(coffey.jpg);
     background-color:#51473D;
     width:543px;
     height:200px;
@@ -24,9 +26,25 @@
     font-style:oblique;
     }
     
-#meu {
+#menu li{
     list-style-type:none;
+    float:left;
+    margin: 0 10px 0 0;
 }
+
+#menu a:link{color:#EAE7D2; 
+             background-color:#797066;
+             font-family:"verdana";
+             font-size:.8em;
+             text-transform:capitalize;
+             text-decoration:none;
+             padding: 20px 7px;}
+#menu a:visited {color:#EAE7D2;}
+/*#menu a:focus */
+#menu a:hover {background-color:#9C9084;
+              text-decoration:none;}
+/*#menu a:active*/
+
     
 #maincontent {
     width: 300px;
@@ -38,6 +56,7 @@
     color: #797066;
     line-height:19px;
 }  
+
 
 img { 
     float: left; 
