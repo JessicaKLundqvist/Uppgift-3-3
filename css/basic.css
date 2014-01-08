@@ -1,4 +1,6 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+
 #container {
     width:543px ;
     height:1000px;
@@ -29,8 +31,10 @@
 #menu li{
     list-style-type:none;
     float:left;
-    margin: 0 10px 0 0;
+    margin: 0 0 6px 1px;
+    
 }
+
 
 #menu a:link{color:#EAE7D2; 
              background-color:#797066;
@@ -38,12 +42,15 @@
              font-size:.8em;
              text-transform:capitalize;
              text-decoration:none;
-             padding: 20px 7px;}
+             padding: 10px 20px;}
 #menu a:visited {color:#EAE7D2;}
 /*#menu a:focus */
 #menu a:hover {background-color:#9C9084;
               text-decoration:none;}
-/*#menu a:active*/
+.active a{  background-color:#EAE7D2;
+            color:#797066;
+            }
+            
 
     
 #maincontent {
@@ -58,7 +65,7 @@
 }  
 
 
-img { 
+#maincontent img { 
     float: left; 
     margin: 5px;
 }
@@ -75,6 +82,12 @@ img {
     font-size: .8em;
     line-height: 20px;
 }
+
+#subcontent a{ font-family:"verdana"; font-size:.9em; }
+#subcontent a:link {color:#797066; }
+#subcontent a:visited {color:#51473D; }
+#subcontent li{margin-left:-40px;}
+
 
  ul{
     list-style-type:none;
@@ -93,6 +106,9 @@ img {
     font-size:.7em;
 }
 
+body {
+    background-color:#C1B3A4;}
+
 h1 {
     font-size:1.5em;
     font-family: 'Times New Roman';
@@ -107,11 +123,6 @@ p {
     font-size:.7em;
     font-family: "Verdana";
 }
-
-#subcontent a{ font-family:"verdana"; font-size:.9em; }
-#subcontent a:link {color:#797066; }
-#subcontent a:visited {color:#51473D; }
-#subcontent li{margin-left:-40px;}
 
 
 
