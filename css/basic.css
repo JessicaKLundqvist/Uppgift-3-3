@@ -1,16 +1,17 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 #container {
-    width:600px ;
+    width:543px ;
+    height:1000px;
     background-color:#FCFAF4;
     margin:auto;
-    padding:10px 15px 10px 15px;
+    padding:10px 20px 10px 20px;
     border:.1px solid #51473D;
     
     }
     
 #topbar {
     background-color:#51473D;
-    width:600px;
+    width:543px;
     height:200px;
     text-align:right;
     margin:auto;
@@ -20,16 +21,34 @@
     }
     
 #maincontent {
-    width: 400px;
-    height: 40%;
-    margin: 20px left;
+    width: 300px;
+    height: auto;
+    float:left;
     padding: 10px;
+    border-left:.5px solid #CECAB9;
+    background-color:#EAE7D2 ;
+    color: #797066;
+    text-align:;
+}    
+
+#subcontent {
+    width: 200px;
+    height:auto;
+    float:right;
+    padding: 10px;
+    border-right:.5px solid #CECAB9;
+    border-left:.5px dashed #CECAB9;
+    background-color:#EAE7D2 ;
+    color: #797066;
+}
+
+#bottomcontent {
+    clear:both;
+    width:543px;
+    height:20px;
+    border-right:.5px solid #CECAB9;
     border-left:.5px solid #CECAB9;
     border-bottom:.5px solid #CECAB9;
     background-color:#EAE7D2 ;
     color: #797066;
-    
-    
-}    
-
-/*font color #494620 background color #f7ea57 border color #c0b536*/
+}
