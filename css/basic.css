@@ -13,7 +13,6 @@
 
 
 #topbar {
-    background-image:url(coffey.jpg);
     background-color:#51473D;
     width:543px;
     height:200px;
@@ -27,11 +26,17 @@
     font-size:.6em;
     font-style:oblique;
     }
-    
+
+#menu{  background-color:#51473D;
+        border-right:.5px solid #CECAB9;
+        BORDER-LEFT:.5px solid #CECAB9;
+        height:65px;
+        width:543px;}    
 #menu li{
+    
     list-style-type:none;
     float:left;
-    margin: 0 0 6px 1px;
+    margin: 0 1px 6px 0;
     
 }
 
@@ -47,8 +52,8 @@
 /*#menu a:focus */
 #menu a:hover {background-color:#9C9084;
               text-decoration:none;}
-.active a{  background-color:#EAE7D2;
-            color:#797066;
+.active a{background-color:#EAE7D2;
+                   color:#797066;
             }
             
 
@@ -70,6 +75,8 @@
     margin: 5px;
 }
 
+
+
 #subcontent {
     width: 200px;
     height:auto;
@@ -83,8 +90,8 @@
     line-height: 20px;
 }
 
-#subcontent a{ font-family:"verdana"; font-size:.9em; }
-#subcontent a:link {color:#797066; }
+
+#subcontent a:link {color:#797066; font-family:"verdana"; font-size:.9em;}
 #subcontent a:visited {color:#51473D; }
 #subcontent li{margin-left:-40px;}
 
@@ -123,6 +130,7 @@ p {
     font-size:.7em;
     font-family: "Verdana";
 }
+
 
 
 
