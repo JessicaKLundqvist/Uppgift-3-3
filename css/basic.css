@@ -39,7 +39,7 @@
         height:65px;
         width:600px;} 
         
-{position:absolute;
+div > a{position:absolute;
 left:-10000px;
 top:auto;
 width:1px;
@@ -50,7 +50,7 @@ overflow:hidden;}
         
         list-style-type:none;
         float:left;
-        margin: 0 1px 6px 0;
+        margin: 38px 1px 0 0;
         
 }
 
